@@ -161,7 +161,9 @@
         <children>
           <component id="a8425" class="javax.swing.JTable" binding="jtable_mostrarRegistro">
             <constraints/>
-            <properties/>
+            <properties>
+              <enabled value="false"/>
+            </properties>
           </component>
         </children>
       </scrollpane>
