@@ -131,7 +131,7 @@ public class MainRegistroPersonal extends JFrame {
             registrarTabla();
         }
 
-//HOLAAAA
+
 
     }
 
