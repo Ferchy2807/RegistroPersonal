@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.fernando.MainRegistroPersonal">
+  <grid id="27dc6" binding="jPanelMain" layout-manager="GridLayoutManager" row-count="11" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="566" height="578"/>
+    </constraints>
+    <properties>
+      <minimumSize width="500" height="550"/>
+      <preferredSize width="1000" height="800"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="e21bf" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <icon value="images/icon_registro.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="3ec73" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="28" style="1"/>
+          <text value="Registro de Personal"/>
+        </properties>
+      </component>
+      <component id="b76c2" class="javax.swing.JLabel" binding="labelNombres">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="14" style="0"/>
+          <text value="Nombres :"/>
+        </properties>
+      </component>
+      <component id="9e5a7" class="javax.swing.JLabel" binding="labelApellidos">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="14" style="0"/>
+          <text value="Apellidos :"/>
+        </properties>
+      </component>
+      <component id="4578a" class="javax.swing.JLabel" binding="labelCorreo">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="14" style="0"/>
+          <text value="Correo :"/>
+        </properties>
+      </component>
+      <component id="d277c" class="javax.swing.JLabel" binding="labelNumero">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="14" style="0"/>
+          <text value="Numero :"/>
+        </properties>
+      </component>
+      <component id="87464" class="javax.swing.JLabel" binding="labelNivEducativo">
+        <constraints>
+          <grid row="5" column="0" row-span="4" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="14" style="0"/>
+          <text value="Nivel Educativo :"/>
+        </properties>
+      </component>
+      <component id="ddc8c" class="javax.swing.JTextField" binding="txtNombres">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="14" style="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="aaa49" class="javax.swing.JTextField" binding="txtCorreo">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="243" height="35"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="14" style="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="65fec" class="javax.swing.JTextField" binding="txtNumero">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="14" style="0"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="60c35" class="javax.swing.JRadioButton" binding="educacionBasicaCompletaRadioButton" default-binding="true">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="14" style="0"/>
+          <text value="Educacion Basica Completa"/>
+        </properties>
+      </component>
+      <component id="1c7f0" class="javax.swing.JRadioButton" binding="educacionSuperiorCompletaRadioButton" default-binding="true">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="14" style="0"/>
+          <text value="Educacion Superior Completa"/>
+        </properties>
+      </component>
+      <component id="2d4c0" class="javax.swing.JRadioButton" binding="educacionSuperiorIncompletaRadioButton" default-binding="true">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="14" style="0"/>
+          <text value="Educacion Superior Incompleta"/>
+        </properties>
+      </component>
+      <component id="7e05a" class="javax.swing.JRadioButton" binding="educacionBasicaIncompletaRadioButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="14" style="0"/>
+          <text value="Educacion Basica Incompleta"/>
+        </properties>
+      </component>
+      <component id="53f5a" class="javax.swing.JButton" binding="REGISTRARButton" default-binding="true">
+        <constraints>
+          <grid row="9" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="14" style="0"/>
+          <text value="REGISTRAR"/>
+        </properties>
+      </component>
+      <scrollpane id="fef27">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="3" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="a8425" class="javax.swing.JTable" binding="jtable_mostrarRegistro">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+      <component id="37cdd" class="javax.swing.JTextField" binding="txtApellidos">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Segoe Print" size="14" style="0"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="buttonGroup_nEducativo">
+      <member id="1c7f0"/>
+      <member id="2d4c0"/>
+      <member id="7e05a"/>
+      <member id="60c35"/>
+    </group>
+  </buttonGroups>
+</form>

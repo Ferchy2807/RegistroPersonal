@@ -1,0 +1,34 @@
+
+w
+java:S3740"/Provide the parametrized type for this generic.(èíİ™ÿÿÿÿÿ8ºº°¶ï1J$5b10b20e-3382-4e70-b160-a908d3c63b27
+œ
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ê–ï„8»º°¶ï1J$933bdcb8-e9bd-4867-8450-325cc9d4b0f3
+k
+java:S16041"(Make this anonymous inner class a lambda(‘ç½€8»º°¶ï1J$fca45d2b-77a4-4545-9429-a652742b2a37
+Ÿ
+java:S1104 "\Make nivelEducacional a static final constant or non-public and provide accessors if needed.(àĞ‚8²…¶¶ï1J$535bde0d-d2c0-434d-9d2a-1e2fe31f596e
+›	java:S116"ZRename this field "REGISTRARButton" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¤¶b8Ìº°¶ï1J$99c1b902-99b2-4bb9-9f9b-469283766581
+£	java:S116"aRename this field "jtable_mostrarRegistro" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬ä¥Ú8Ìº°¶ï1J$faba2b12-9d72-403a-a997-dcc742f699f0
+¨	java:S116"aRename this field "buttonGroup_nEducativo" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(áÁñÖüÿÿÿÿ8Ìº°¶ï1J$4f0767ca-22ef-4768-8aae-b3c9c0f334f6
+š
+java:S3776""RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ÒùŠûùÿÿÿÿ8Òº°¶ï1J$d2ac6c75-77cc-4614-8b66-fe89144b8a01
+‘
+java:S3252%"IUse static access with "javax.swing.WindowConstants" for "EXIT_ON_CLOSE".(Õû»öşÿÿÿÿ8Ôº°¶ï1J$3aec554e-4543-4f91-abfd-07283cf6593b
+€
+java:S1854f"=Remove this useless assignment to local variable "correoCmb".(›ğ˜¬8Ùº°¶ï1J$7cfe5402-6e00-4076-bc7e-f6f46387b486
+q
+java:S1481f".Remove this unused "correoCmb" local variable.(›ğ˜¬8èÀî¶ï1J$072e29b3-59b5-4aea-b0a7-3eaef1101a59
+v
+java:S1135¥"2Complete the task associated to this TODO comment.(¡ç‚Ï8ßº°¶ï1J$5edf24bf-1359-4a93-bf11-1e8b8d5a966c
+s
+java:S1068"0Remove this unused "labelNombres" private field.(Ş‹çı8ßº°¶ï1J$3afec668-0401-4a3b-b10f-177ff42aeee2
+z
+java:S1068"2Remove this unused "labelApellidos" private field.(ÄåÑ‰úÿÿÿÿ8àº°¶ï1J$b417f0a3-ce1e-4d99-80a0-0c8b760bfacd
+r
+java:S1068"/Remove this unused "labelCorreo" private field.(×„8àº°¶ï1J$9c990bb4-7fd4-436f-9ddb-15bcca410a8f
+w
+java:S1068"/Remove this unused "labelNumero" private field.(œĞì¼üÿÿÿÿ8àº°¶ï1J$4e01a772-dbb6-4fae-a709-d54303eee72b
+x
+java:S1068"5Remove this unused "labelNivEducativo" private field.(©İö8àº°¶ï1J$fb4cf403-2dfe-432a-8fb5-3ed2a5fc948d
+€
+java:S1144¤"7Remove this unused private "createUIComponents" method.(Á›°çıÿÿÿÿ8àº°¶ï1J$4ddcdf2a-dd50-4ab4-9aa4-caf0d003b255
